@@ -1,0 +1,21 @@
+<magiumConfiguration xmlns="http://www.magiumlib.com/Configuration">
+    <section identifier="authentication" label="Authentication" font-awesome="fa-user">
+        <group identifier="auth0" label="Auth0">
+            <element identifier="enabled" label="Enabled" source="Magium\Configuration\Source\Switches\EnableDisable"/>
+            <element identifier="domain" label="Domain"/>
+            <element identifier="client_id" label="Client ID" />
+            <element identifier="client_secret" label="Client Secret" />
+            <element identifier="redirect_uri" type="url" label="Redirect URI"/>
+            <element identifier="audience" label="Audience"/>
+            <element identifier="persist_id_token" label="Persist ID Token" source="Magium\Configuration\Source\Switches\YesNo">
+                <value>1</value>
+            </element>
+            <element identifier="persist_access_token"  label="Persist Access Token" source="Magium\Configuration\Source\Switches\YesNo">
+                <value>1</value>
+            </element>
+            <element identifier="persist_refresh_token"  label="Persist Refresh Token" source="Magium\Configuration\Source\Switches\YesNo">
+                <value>1</value>
+            </element>
+        </group>
+    </section>
+</magiumConfiguration>

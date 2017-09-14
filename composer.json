@@ -1,0 +1,24 @@
+{
+  "name": "magium/mcm-auth0-factory",
+  "description": "This library provides a configured instance of the Auth0 PHP adapter using the Magium Configuration Manager",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Kevin Schroeder",
+      "email": "kschroeder@magiumlib.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+        "Magium\\Auth0Factory\\": "lib"
+    },
+    "files": [
+      "registration.php"
+    ]
+  },
+  "require": {
+    "auth0/auth0-php": "^5.0",
+    "magium/configuration-manager": "^1.0"
+  }
+}
