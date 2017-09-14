@@ -70,4 +70,4 @@ $user = $auth0->getUser();
 
 ```
 
-You can try this in the [test/test.php](sample test script).
+You can try this in the [sample test script](test/test.php).
