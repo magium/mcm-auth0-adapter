@@ -1,0 +1,1 @@
+# mcm-auth0-adapter
