@@ -7,6 +7,7 @@
             <element identifier="client_secret" label="Client Secret" />
             <element identifier="redirect_uri" type="url" label="Redirect URI"/>
             <element identifier="audience" label="Audience"/>
+            <element identifier="scope" label="Scope"/>
             <element identifier="persist_id_token" label="Persist ID Token" source="Magium\Configuration\Source\Switches\YesNo">
                 <value>1</value>
             </element>
