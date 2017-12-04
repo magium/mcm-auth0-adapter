@@ -38,7 +38,7 @@ class Auth0Factory
             'persist_id_token' => $this->config->getValueFlag(self::CONFIG_PERSIST_ID_TOKEN),
             'persist_access_token' => $this->config->getValueFlag(self::CONFIG_PERSIST_ACCESS_TOKEN),
             'persist_refresh_token' => $this->config->getValueFlag(self::CONFIG_PERSIST_REFRESH_TOKEN),
-            'scope' => $this->config->getValueFlag(self::CONFIG_SCOPE),
+            'scope' => $this->config->getValue(self::CONFIG_SCOPE),
         ]);
         return $auth0;
     }
